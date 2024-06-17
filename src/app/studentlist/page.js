@@ -6,16 +6,16 @@ export default function page() {
       <h1>Student List</h1>
       <ul>
         <li>
-          <Link href="/1">Hasham</Link>
+          <Link href="/student/1">Hasham</Link>
         </li>
         <li>
-          <Link href="/2">Azhar</Link>
+          <Link href="/student/2">Azhar</Link>
         </li>
         <li>
-          <Link href="/3">Amin</Link>
+          <Link href="/student/3">Amin</Link>
         </li>
         <li>
-          <Link href="/4">Moin</Link>
+          <Link href="/student/4">Moin</Link>
         </li>
       </ul>
     </>
