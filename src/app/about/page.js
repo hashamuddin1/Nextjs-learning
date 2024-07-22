@@ -10,10 +10,18 @@ export default function AboutPage() {
       <button onClick={() => router.push("/")}>GO TO HOME PAGE</button>
       <br />
       <br />
-      <button onClick={() => router.push("/about/aboutcollege")}>GO TO ABOUT COLLEGE PAGE</button>
+      <button onClick={() => router.push("/about/aboutcollege")}>
+        GO TO ABOUT COLLEGE PAGE
+      </button>
       <br />
       <br />
-      <button onClick={() => router.push("/about/aboutschool")}>GO TO ABOUT SCHOOL PAGE</button>
+      <button onClick={() => router.push("/about/aboutschool")}>
+        GO TO ABOUT SCHOOL PAGE
+      </button>
+      <br />
+      <button onClick={() => router.push("/product")}>
+        GO TO PRODUCT PAGE
+      </button>
     </div>
   );
 }
