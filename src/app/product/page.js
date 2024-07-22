@@ -1,3 +1,5 @@
+import ButtonComponent from "./buttoncomponent";
+
 async function productList() {
   let data = await fetch("https://dummyjson.com/products");
   data = await data.json();
@@ -15,6 +17,7 @@ export default async function Page() {
         return (
           <h3 key={item.id} style={{ color: "black" }}>
             Name: {item.title}
+            <ButtonComponent price={item.price} />
           </h3>
         );
       })}

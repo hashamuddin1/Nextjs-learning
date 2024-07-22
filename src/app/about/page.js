@@ -19,6 +19,7 @@ export default function AboutPage() {
         GO TO ABOUT SCHOOL PAGE
       </button>
       <br />
+      <br />
       <button onClick={() => router.push("/product")}>
         GO TO PRODUCT PAGE
       </button>
