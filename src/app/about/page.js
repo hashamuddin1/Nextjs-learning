@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import custom from "@/style/custom.module.css"
 
 export default function AboutPage() {
   const router = useRouter();
@@ -23,6 +24,7 @@ export default function AboutPage() {
       <button onClick={() => router.push("/product")}>
         GO TO PRODUCT PAGE
       </button>
+      <h3 className={custom.heading}>Custom heading</h3>
     </div>
   );
 }

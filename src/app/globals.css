@@ -90,6 +90,10 @@ a {
   text-decoration: none;
 }
 
+h3{
+  color: red;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

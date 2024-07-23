@@ -15,7 +15,7 @@ export default async function Page() {
       {products.map((item) => {
         console.log("===>", item.title);
         return (
-          <h3 key={item.id} style={{ color: "black" }}>
+          <h3 key={item.id}>
             Name: {item.title}
             <ButtonComponent price={item.price} />
           </h3>
