@@ -20,6 +20,7 @@ export default function AboutCollegePage() {
         }
         width={200}
         height={200}
+        alt="charger"
       />
     </div>
   );
